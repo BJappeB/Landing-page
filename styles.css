@@ -1,0 +1,131 @@
+body{
+display: flex;
+flex-direction: column;
+font-family: 'Roboto', sans-serif;
+height: 100vh;
+margin: 0;
+
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.links{
+    display: flex;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    color: #E5E7EB;
+}
+li{
+    list-style: none;
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.hero{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+.main.text{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.left{
+    display: flex;
+    max-width: 420px;
+    margin-left: 170px;
+
+
+}
+.right{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 450px;
+    margin-right: 170px;
+
+
+
+}
+.content{
+    flex-direction: column;
+
+
+}
+.header.below{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.signup{
+    background-color: #3882F6;
+
+    border-radius: 15%;
+
+    color: #E5E7EB;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+/*random information*/
+.information{
+    margin-bottom: 48px;
+}
+.random.header{
+    margin-top: 38px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    margin-top: 38px;
+}
+
+.box{
+max-width: 170px;
+
+
+}
+.placeholder{
+height: 120px;
+border-style: solid;
+border-color: #3882F6;
+border-radius: 5%;
+}
+.sub{
+    text-align: center;
+}
+
+/* quote section */
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    min-height: 300px;
+
+}
+
+
+.subText{
+max-width: 530px;
+justify-content: center;
+
+}
+/* Call to action section*/
